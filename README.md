@@ -1,6 +1,7 @@
 # NameSearcher - LangGraph Two Agent System
 
-Perform similar name search for a given product or brand. A two-agent system using LangGraph where a Researcher agent performs web searches using Serper API and an Analyst agent churning final result.
+Perform similar name search for a given product or brand. 
+A two-agent system using LangGraph where a Researcher agent performs web searches using Serper API and an Analyst agent churning final result.
 
 ## Features
 
@@ -45,7 +46,7 @@ cp .env.example .env
 
 5. Run the application:
 ```bash
-python main.py --topic "品牌/产品名字" --industry "行业"
+python main.py --subject "品牌/产品名字" --industry "行业"
 ```
 
 ### Docker Setup
@@ -65,7 +66,7 @@ docker-compose up --build
 ```bash
 curl -X POST http://localhost:5000/research \
   -H "Content-Type: application/json" \
-  -d '{"topic": "品牌/产品", "industry": "行业"}'
+  -d '{"subject": "品牌/产品", "industry": "行业"}'
 ```
 
 ## Usage
@@ -74,8 +75,10 @@ Edit `main.py` to customize the research subject:
 
 ```python
 if __name__ == "__main__":
-    subject = "Your research topic here"
-    result = run_research_report(subject)
+    subject = "Your research subject here"
+    industry = "Your research industry here"
+    agent_system_init = run_research_report()
+    result = agent_system_init.run(subject,industry)
 ```
 
 ## Architecture
