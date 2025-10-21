@@ -1,4 +1,4 @@
-# Name Searcher - LangGraph Two Agent System
+# NameSearcher - LangGraph Two Agent System
 
 Perform similar name search for a given product or brand. A two-agent system using LangGraph where a Researcher agent performs web searches using Serper API and an Analyst agent churning final result.
 
