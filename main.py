@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     # Extract values
-    subject = args.topic
+    subject = args.subject
     industry = args.industry
 
     # subject = "SK2小灯泡"
