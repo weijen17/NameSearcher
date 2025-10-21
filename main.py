@@ -16,7 +16,7 @@ if __name__ == "__main__":
     # result = agent_system_init.run(subject)
 
     parser = argparse.ArgumentParser(description="Run research report agent")
-    parser.add_argument("--topic", required=True, help="The research topic (e.g. SK2小灯泡)")
+    parser.add_argument("--subject", required=True, help="The research brand/product (e.g. SK2小灯泡)")
     parser.add_argument("--industry", required=True, help="The industry (e.g. 护肤)")
 
     args = parser.parse_args()
