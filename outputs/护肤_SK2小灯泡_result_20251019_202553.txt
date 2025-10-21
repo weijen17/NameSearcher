@@ -1,0 +1,7 @@
+SUBJECT: SK2小灯泡
+INDUSTRY: 护肤
+DATE: 2025-10-19 20:25:53
+
+======================================================================
+
+{'correct_nicknames': ['光蕴恒璨焕亮精华露', '光子小灯泡', 'SK-II肌因光蕴祛斑精华露', '光蘊恆璨煥亮精華', 'SK-II Genoptics Aura Essence', 'Genoptics Infinitaura Essence', 'SK-II Genoptics Infinitaura Essence', 'SK2小灯泡'], 'correct_urls': ['https://hkairportshop.com/eshop_cn/genoptics-infinitaura-essence-50ml-843-0316100006148800.html?srsltid=AfmBOoonhuMZo_68BHoGzsd1qh_pWDI_LhPh9p4_FOA_UCS41TKHYqHk', 'https://www.skii.com.cn/product/genoptics-infinitaura-essence', 'https://zhuanlan.zhihu.com/p/110168471', 'https://sk-ii.com.tw/product/genoptics-infinitaura-essence', 'https://www.yamibuy.com/zh/p/sk-ii-genoptics-aura-essence-50ml/1022007651'], 'incorrect_nicknames': [], 'incorrect_urls': []}
